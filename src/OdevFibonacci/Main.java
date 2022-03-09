@@ -2,7 +2,7 @@ package OdevFibonacci;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         int n,n1 = 0,n2 = 1,n3,result;
 
         Scanner input = new Scanner(System.in);
@@ -14,5 +14,18 @@ public class Main {
             n1 = n2;
             n2 = n3;
         }
+    }
+
+    */
+   public static void main(String[] args) {
+       recursiveMethod(4);
+   }
+
+    static void recursiveMethod(int num) {
+        num--;
+        if (num == 0)
+            return;
+        System.out.print(num + ",");
+        recursiveMethod(num);
     }
 }
