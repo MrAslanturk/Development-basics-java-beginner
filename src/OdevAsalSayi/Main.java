@@ -11,7 +11,6 @@ public class Main {
                     break;
                 }
             }
-
             if (asalMi) {
                 System.out.print(i + " ");
             }

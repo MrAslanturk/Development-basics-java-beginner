@@ -23,6 +23,7 @@ public class Main {
         x = input.nextInt();
         System.out.print("Üs sayısını giriniz: ");
         y = input.nextInt();
+
         System.out.print(""+ power(x,y));
     }
 }
